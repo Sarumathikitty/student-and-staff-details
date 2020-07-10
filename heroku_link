@@ -1,1 +1,56 @@
-https://staff-student-details.herokuapp.com
+//post student details
+
+https://staff-student-details.herokuapp.com/stuData
+[
+{
+"id":1,
+"name":"stu1",
+"staffid":1
+},
+{
+"id":2,
+"name":"stu2",
+"staffid":1
+},
+{
+"id":3,
+"name":"stu3",
+"staffid":1
+},
+{
+"id":1,
+"name":"stu4",
+"staffid":2
+}
+]
+
+//get studentdetails
+https://staff-student-details.herokuapp.com/stuData
+
+//post staffdetails
+https://staff-student-details.herokuapp.com/staffData
+
+{
+"id":1,
+"name":"sara"
+},
+{
+"id":2,
+"name":"meera"
+}
+
+//get staffdeatils
+https://staff-student-details.herokuapp.com/allstaff
+
+//put method
+https://staff-student-details.herokuapp.com/stuData
+
+{
+"name":"person1"
+}
+
+//delete method
+https://staff-student-details.herokuapp.com/stuData/1
+
+
+
